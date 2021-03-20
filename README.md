@@ -37,3 +37,13 @@
 
 - 클라이언트는 클라이언트 디바이스에서 실행되는 웹브라우저,
 - 서버는 서버 디바이스에서 실행되는 서버 소프트웨어가 실제로 사용되는것
+
+
+# HTML
+
+> HTML introduction
+
+[w3schools html introduction](https://www.w3schools.com/html/default.asp)
+
+
+
