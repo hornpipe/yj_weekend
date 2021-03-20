@@ -10,3 +10,10 @@
 - branch : 각각의 개발자가 독립적으로 개발하기 위한 가지
 - pull request : 각각의 branch 에서 개발한것을 master branch로 병합하기 위한 ★요청
 - merge : master branch로 병합
+
+
+> 수업 사이트 링크
+
+[코드팬](https://codepen.io/pen/tour/welcome/start)
+[마크다운사용법](https://gist.github.com/ihoneymon/652be052a0727ad59601)
+[w3cshcools](https://www.w3schools.com/)
