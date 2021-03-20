@@ -15,5 +15,12 @@
 > 수업 사이트 링크
 
 [코드팬](https://codepen.io/pen/tour/welcome/start)
+
 [마크다운사용법](https://gist.github.com/ihoneymon/652be052a0727ad59601)
+
 [w3cshcools](https://www.w3schools.com/)
+
+
+> 서버 클라이언트 시스템
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Client-server-model.svg/1200px-Client-server-model.svg.png" width="70%"/>
+<img src="https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/course/2614/4971.png" width="70%"/>
