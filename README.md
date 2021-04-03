@@ -47,3 +47,23 @@
 
 
 
+
+
+<br><br><br><br><br><br><br><br><br>
+
+# 21-04-03 HTML 수업
+
+## HTML Semantic Elements
+>html 기초 w3schools 사이트 https://www.w3schools.com/html/html5_semantic_elements.asp
+
+>호환성 가능 검색 사이트 https://caniuse.com/
+- header  로그인정보/로고등 
+- nave  카테고리메뉴
+- footer  사업자정보/연락처
+  
+>웹사이트 디자인 템플릿사이트 https://freebiesbug.com/
+>온라인 포토샵 https://www.photopea.com/
+
+
+
+
