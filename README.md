@@ -70,3 +70,44 @@
 >웹사이트 디자인 템플릿사이트 https://freebiesbug.com/
 
 >온라인 포토샵 https://www.photopea.com/
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br>
+
+# 21-04-17 CSS 수업
+
+## HTML Element에 이름붙이기
+> id / class
+```
+<p id="paragraph1">단락</p>
+<p calss="paragraph2">단락</p>
+```
+
+> id / class 의 차이
+- a태그의 목적지에 이름을 붙일때 , 이동하고자 하는 위치의 대상
+```
+- id = 중복X / class = 중복 O
+- Class = css styling , javascript 기능을 동시 적용할 수 있다
+```
+
+> float / display:flex 레이어 가로배치 
+```
+display:flex ->한줄로 배치됨 = float:left 같은효과
+flex-wrap:wrap 가로값을 유지하면서 자연스러운 줄바꿈되어 정렬됨 
+(*flex-wrap 없이는 가로값무시하여 무조건 한줄 정렬)
+wrap-reverse 순서 반대로 정렬
+
+justify-content : cneter -> flex박스 전체 가로를 정렬가능
+(cneter flex-start flex-end)
+space-around -> 왼쪽오른쪽 여백을 같게 만듬(여백이합쳐질수있음) 
+space-between -> 박스 사이사이의 간격을 같게만듬
+
+align-items:(cneter flex-start flex-end) -> flex 박스 전체 세로를 정렬가능
+```
+
+> 컨트롤+슬래시(/ ?) - 자동주석처리
+
+
