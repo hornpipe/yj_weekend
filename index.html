@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>프로젝트 테스트</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=34a4feed02a685fbf04d590839d8d4d2&libraries=services"></script>
+    <script src="../js/function.js" defer></script>
+</head>
+<body>
+
+<div class="weather">
+
+    <div class="weather-img">
+        <img src="../img/01d@2x.png" alt="clear sky"/>
+    </div>
+
+    <div class="weather-text">
+        clear sky
+    </div>
+
+    <div class="weather-temp">
+        <span>15</span>℃
+    </div>
+
+    <div class="weather-temp-minmax">
+        min<span class="min">15</span>℃ / max<span class="max">15</span>℃
+    </div>
+
+    <!-- 스크립트 주석처리
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=34a4feed02a685fbf04d590839d8d4d2&libraries=services"></script>
+    <script>
+        var mapContainer = document.getElementById('map'), // 지도를 표시할 div
+            mapOption = {
+                center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
+                level: 3 // 지도의 확대 레벨
+            };
+
+        // 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
+        var map = new kakao.maps.Map(mapContainer, mapOption);
+
+        // 마커 생성
+        var marker = new kakao.maps.Marker({
+            position:map.getCenter()
+        });
+
+        // 마커 표시
+        marker.setMap(map);
+
+        // 지도에 클릭 이벤트를 등록합니다
+        // 지도를 클릭하면 마지막 파라미터로 넘어온 함수를 호출합니다
+        kakao.maps.event.addListener(map, 'click', function(mouseEvent) {
+
+            // 클릭한 위도, 경도 정보를 가져옵니다
+            var latlng = mouseEvent.latLng;
+
+            // 마커 위치를 클릭한 위치로 옮깁니다
+            marker.setPosition(latlng);
+
+            console.log(latlng.getLat());
+            console.log(latlng.getLng());
+
+        });
+
+        // 컨트롤 표시
+
+        // 지도 확대 축소를 제어할 수 있는  줌 컨트롤을 생성합니다
+        var zoomControl = new kakao.maps.ZoomControl();
+        map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
+
+    </script>
+    -->
+
+</div>
+
+<!-- 지도를 표시할 div 입니다 -->
+<div id="map" class="map-style">
+</div>
+
+</body>
+</html>
